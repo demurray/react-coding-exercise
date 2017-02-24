@@ -27,7 +27,7 @@ module.exports = class HobbiesForm extends React.Component {
 					submitForm={this.props.submitForm}
 
 					// Let the HobbiesFormInput know whether we're submitting so it can disable the submit button
-					submittingData={this.props.results.submittingData}
+					submittingData={this.props.results.submitting}
 				/>
 				<HobbiesFormResults
 					{...this.props.results}
