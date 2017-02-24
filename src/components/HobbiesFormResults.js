@@ -10,14 +10,14 @@ module.exports = class HobbiesFormResults extends React.Component {
 			return (
 				<div>
 					<hr />
-					<p>Loading...</p>
+					<div className="alert alert-warning">Loading...</div>
 				</div>
 			);
 		} else if (this.props.submittedData) {
 			return (
 				<div>
 					<hr />
-					<p>Done!</p>
+					<div className="alert alert-success">Done!</div>
 					<div className="form-group">
 						<label htmlFor="submitted-data">Submitted Data:</label>
 						<textarea readOnly id="submitted-data" className="form-control" value={this.props.submittedData.firstName + ' ' + this.props.submittedData.lastName} />
