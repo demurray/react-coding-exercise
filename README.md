@@ -4,11 +4,11 @@ Author: Dave Murray <david.e.murray.80@gmail.com>
 
 ###Installation
 
-Clone this repository and cd to the directory that has index.html and package.json. Run:
+Clone this repository and cd to the directory that has index.html and package.json. First, run:
 
 **npm install**
 
-To compile the client-side Javascript, run:
+Then, run:
 
 **npm run build**
 
